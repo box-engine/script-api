@@ -4,12 +4,6 @@
 
 [modules/navigator](../modules/modules_navigator.md).PlayerNavigator
 
-## Table of contents
-
-### Methods
-
-- [emitEvent](modules_navigator.PlayerNavigator.md#emitevent)
-
 ## Methods
 
 ### emitEvent
@@ -26,7 +20,3 @@
 #### Returns
 
 `Promise`<`void`\>
-
-#### Defined in
-
-[modules/navigator.d.ts:2](https://github.com/box-engine/script-api/blob/861e99e/server/modules/navigator.d.ts#L2)

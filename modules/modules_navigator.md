@@ -2,8 +2,6 @@
 
 # Module: modules/navigator
 
-## Table of contents
-
-### Interfaces
+## Interfaces
 
 - [PlayerNavigator](../interfaces/modules_navigator.PlayerNavigator.md)

@@ -6,12 +6,6 @@
 
 HTTP 请求相关的API
 
-## Table of contents
-
-### Properties
-
-- [fetch](HTTP.GameHttp.md#fetch)
-
 ## Properties
 
 ### fetch
@@ -41,7 +35,3 @@ console.log(await res.text())
 `Promise`<[`GameHttpFetchResponse`](HTTP.GameHttpFetchResponse.md)\>
 
 请求的响应，以Promise形式返回
-
-#### Defined in
-
-[modules/http.d.ts:20](https://github.com/box-engine/script-api/blob/861e99e/server/modules/http.d.ts#L20)

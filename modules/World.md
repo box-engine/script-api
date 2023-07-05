@@ -2,27 +2,20 @@
 
 # Module: World
 
-## Table of contents
-
-### events Enumerations
+## events Enumerations
 
 - [GameButtonType](../enums/World.GameButtonType.md)
 
-### Other Classes
+## Other Classes
 
 - [GameRaycastResult](../classes/World.GameRaycastResult.md)
 - [GameWorld](../classes/World.GameWorld.md)
 
-### events Classes
+## events Classes
 
 - [GameInputEvent](../classes/World.GameInputEvent.md)
 
-### Type Aliases
-
-- [EntitySelectorType](World.md#entityselectortype)
-- [GameSelectorString](World.md#gameselectorstring)
-
-### Events
+## Events
 
 - [GameTickEvent](../classes/World.GameTickEvent.md)
 
@@ -44,10 +37,6 @@
 | `local-player` | [`GamePlayerEntity`](../classes/Players.GamePlayerEntity.md) |
 | `player` | [`GamePlayerEntity`](../classes/Players.GamePlayerEntity.md) |
 
-#### Defined in
-
-[modules/world.d.ts:75](https://github.com/box-engine/script-api/blob/861e99e/server/modules/world.d.ts#L75)
-
 ___
 
 ### GameSelectorString
@@ -64,7 +53,3 @@ const theChair = world.querySelector('#chair');      // the first entity whose i
 const boxes = world.querySelectorAll('.box');        // all entities tagged with "box"
 const boxChair = world.querySelector('.box .red');
 ```
-
-#### Defined in
-
-[modules/world.d.ts:74](https://github.com/box-engine/script-api/blob/861e99e/server/modules/world.d.ts#L74)

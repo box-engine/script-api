@@ -2,13 +2,11 @@
 
 # Module: Players
 
-## Table of contents
-
-### Enumerations
+## Enumerations
 
 - [GameCameraMode](../enums/Players.GameCameraMode.md)
 
-### Classes
+## Classes
 
 - [GamePlayer](../classes/Players.GamePlayer.md)
 - [GamePlayerEntity](../classes/Players.GamePlayerEntity.md)

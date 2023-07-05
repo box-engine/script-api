@@ -2,8 +2,6 @@
 
 # Module: Math
 
-## Table of contents
-
-### Classes
+## Classes
 
 - [GameVector3](../classes/Math.GameVector3.md)
