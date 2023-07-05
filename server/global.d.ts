@@ -1,5 +1,6 @@
 /**
- * @module  Global Variables
+ * 可全局访问的对象
+ * @module 全局对象
  */
 
 import type { GameStorage } from './modules/storage';
@@ -8,23 +9,23 @@ import { GameWorld } from './modules/world';
 import { GameRTC } from './modules/rtc';
 
 /**
-
  * 代表游戏世界的全局对象
  */
 declare const world: GameWorld;
 
 /**
- * 此模块不对外开放，并仅支持调用白名单域名
- * @private
+ * 此模块仅支持调用白名单域名
+ * @internal
  */
 declare const http: GameHttp;
 
 /**
- * RTC 模块，用于语音通信
+ * RTC模块，用于语音通信
+ * @internal
  */
 declare const rtc: GameRTC;
 
 /**
- * Game Data Storage
+ * 数据存储模块
  */
 declare const storage: GameStorage;

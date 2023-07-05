@@ -4,8 +4,10 @@
   "description": "",
   "types": "index.d.ts",
   "scripts": {
-    "dev": "typedoc --watch --plugin typedoc-plugin-markdown --excludeInternal --entryPointStrategy expand --out docs/ --tsconfig tsconfig.json --entryPoints ./server/global.d.ts --entryPoints ./server/modules",
-    "doc": "typedoc --plugin typedoc-plugin-markdown --excludeInternal --entryPointStrategy expand --out docs/ --tsconfig tsconfig.json --entryPoints ./server/global.d.ts --entryPoints ./server/modules",
+    "build": "",
+    "build:watch": "",
+    "dev": "rushx doc --watch",
+    "doc": "typedoc --plugin typedoc-plugin-markdown --disableSources --hideInPageTOC --excludeInternal --entryPointStrategy expand --out docs/ --tsconfig tsconfig.json --entryPoints ./server/global.d.ts --entryPoints ./server/modules",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "MIT",

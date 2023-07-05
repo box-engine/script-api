@@ -1,5 +1,6 @@
 /**
  * @module RTC
+ * @internal
  */
 
 import { GamePlayerEntity } from './player';
